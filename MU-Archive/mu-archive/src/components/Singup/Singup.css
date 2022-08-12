@@ -1,0 +1,95 @@
+.Auth {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 4rem;
+    position: relative;
+  }
+
+  .Auth > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+   /* left side */
+   .a-left{
+    gap: 2rem;
+}
+
+.a-left > img {
+  width: 8rem;
+  height: 8rem;
+}
+
+.Webname > h1 {
+    font-size: 3rem;
+    color: rgb(54, 54, 109);
+}
+
+.Webname>h6{
+    font-size: 0.85rem;
+    color: rgb(100, 100, 104);
+}
+
+
+.infoForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .infoInput{
+    border: none;
+    outline: none;
+    background-color: var(--inputColor);
+    border-radius: 8px;
+    padding: 20px;
+    flex:1;
+  }
+
+  .infoForm>div{
+    display: flex;
+    gap: 1rem;
+    height: 2rem;
+    width: 90%;
+  }
+  .infoButton{
+    width: 6rem;
+    height: 2rem;
+    align-self: flex-end;
+    background-color:  rgb(54, 54, 109);
+    color: white;
+    border-radius: 12px;
+    transition: 0.3s all ease-out;
+    cursor: pointer;
+    border: none;
+  }
+  .infoButton:hover{
+    color: var(--black);
+    background-color: rgb(164, 164, 240);
+    transition: 0.3s all ease-out;
+    cursor: pointer;
+    font-weight:bold;
+    
+  }
+  .authForm{
+    box-shadow: 0 0 28px 4px rgba(0,0,0,0.1); 
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.authForm>div{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.all{
+    color: rgb(100, 100, 104);
+}
+.all:hover{
+    color: rgb(54, 54, 109);
+}

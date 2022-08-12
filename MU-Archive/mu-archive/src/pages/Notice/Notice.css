@@ -1,0 +1,38 @@
+
+
+.Notice{
+    position: relative;
+    display: grid;
+    grid-template-columns: 18rem auto 20rem;
+    gap: 1rem;
+    overflow: hidden;
+    background: #f3f3f3;
+    padding: 1rem 1rem;
+    
+}
+
+.blur{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #bdc5eb;
+    filter: blur(72px)
+  }
+  .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border:none;
+    border-radius: 0.5rem;
+    background: rgb(47, 47, 97);
+    transition:all 100ms ease-out;
+  }
+  .button:hover{
+    cursor: pointer;
+    color: rgb(47, 47, 97);
+    background: transparent;
+    border: 2px solid rgb(47, 47, 97);
+  }
+  

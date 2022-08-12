@@ -1,0 +1,50 @@
+.navbar-logo > img{
+    width: 8rem;
+    height: 8rem;
+    display: flex;
+    border-radius: 50rem;
+}
+.navbar {
+    height: 15vh;
+    background: rgb(33, 33, 68); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+
+  .nav-items {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    width: 60vw;
+    justify-content: flex-end;
+    margin-right: 2rem;
+    font-weight: 400;
+    gap: 1rem;
+    margin-right: 4rem;
+  }
+  
+  .nav-item {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+  }
+
+  .nav-item a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    margin-right: 2rem;
+    padding: 6px 16px;
+    border-radius: 5px;
+  }
+
+  .nav-item a:hover {
+    color:rgb(170, 190, 243);
+    transition: 0.3s all ease-out;
+    cursor: pointer;
+  }
+    
+  
